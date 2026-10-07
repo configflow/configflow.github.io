@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Configflow provides DevOps and cloud infrastructure consulting: Terraform, CI/CD, Kubernetes, automation and monitoring.">
+  <meta name="theme-color" content="#101b2b">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://configflow.com/">
+  <meta property="og:title" content="Configflow — DevOps & cloud infrastructure">
+  <meta property="og:description" content="DevOps consulting for software teams. Infrastructure as code, delivery pipelines, Kubernetes and monitoring.">
+  <title>Configflow — DevOps & cloud infrastructure</title>
+  <link rel="canonical" href="https://configflow.com/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101b2b'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Arial,sans-serif' font-size='42' font-weight='700' fill='%238be2dc'%3Ec%3C/text%3E%3C/svg%3E">
+  <style>
+    :root { color-scheme: dark; --bg: #101b2b; --text: #f1f5fa; --muted: #b6c2d1; --accent: #8be2dc; --line: #334154; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 1rem; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    .page { width: min(100% - 3rem, 66rem); margin-inline: auto; }
+    header { padding-block: 2.5rem; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; border-bottom: 1px solid var(--line); }
+    .brand { margin: 0; font-size: 1.65rem; font-weight: 700; letter-spacing: -.055em; line-height: 1.3; }
+    .brand span { color: var(--accent); }
+    .header-note { margin: 0; color: var(--muted); font-size: .875rem; }
+    .intro { padding-block: 5rem 3.8rem; max-width: 49rem; }
+    h1 { font-size: clamp(2.7rem, 6.5vw, 4.7rem); font-weight: 650; letter-spacing: -.055em; line-height: 1.12; margin: 0 0 1.65rem; }
+    h1 span { color: var(--accent); }
+    .intro p { max-width: 40rem; margin: 0; font-size: 1.125rem; color: var(--muted); line-height: 1.8; }
+    .services { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.25rem; padding-block: 2rem 3rem; border-top: 1px solid var(--line); }
+    .service-number { font-family: ui-monospace, "SFMono-Regular", Consolas, monospace; color: var(--accent); font-size: .875rem; margin: 0 0 .75rem; }
+    h2 { margin: 0 0 .65rem; font-size: 1.1rem; font-weight: 600; letter-spacing: -.01em; line-height: 1.4; }
+    .service p:last-child { margin: 0; color: var(--muted); }
+    .tools { padding-block: 1.25rem; border-block: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; }
+    .tools span { color: var(--muted); font-size: .875rem; }
+    .contact { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; padding-block: 2.5rem; border-bottom: 1px solid var(--line); }
+    .contact h2 { font-size: 1.65rem; }
+    .contact p { color: var(--muted); margin: .75rem 0 0; }
+    .contact-address { display: inline-block; font-size: 1.0625rem; overflow-wrap: anywhere; }
+    footer { padding-block: 2rem 2.5rem; display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 1rem; color: var(--muted); font-size: .875rem; }
+    footer p { margin: 0; }
+    .links { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+    a { color: var(--accent); text-underline-offset: .25em; }
+    a:hover { color: var(--text); }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
+    @media (max-width: 640px) {
+      .page { width: min(100% - 2.5rem, 66rem); }
+      header { padding-block: 1.75rem; flex-wrap: wrap; }
+      .intro { padding-block: 3.5rem 2.75rem; }
+      .services { grid-template-columns: 1fr; gap: 2rem; padding-bottom: 2.5rem; }
+      .contact { align-items: flex-start; flex-direction: column; }
+      .intro p { font-size: 1.0625rem; }
+    }
+    @media (prefers-reduced-motion: no-preference) { a { transition: color .15s ease; } }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <p class="brand">config<span>flow</span></p>
+      <p class="header-note">DevOps consulting</p>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="intro-heading">
+        <h1 id="intro-heading">DevOps &amp;<br><span>cloud infrastructure.</span></h1>
+        <p>Configflow provides DevOps consulting for software teams—from infrastructure as code and delivery pipelines to Kubernetes operations and monitoring.</p>
+      </section>
+      <section class="services" aria-label="Services">
+        <article class="service">
+          <p class="service-number" aria-hidden="true">01 /</p>
+          <h2>Cloud infrastructure</h2>
+          <p>Infrastructure as code with Terraform. Cloud environments on AWS, Azure and Google Cloud.</p>
+        </article>
+        <article class="service">
+          <p class="service-number" aria-hidden="true">02 /</p>
+          <h2>Delivery &amp; automation</h2>
+          <p>CI/CD pipelines, GitHub Actions, repository migrations and automated deployment workflows.</p>
+        </article>
+        <article class="service">
+          <p class="service-number" aria-hidden="true">03 /</p>
+          <h2>Operations &amp; monitoring</h2>
+          <p>Docker and Kubernetes operations. Monitoring, alerting and ongoing infrastructure support.</p>
+        </article>
+      </section>
+      <div class="tools" aria-label="Technologies">
+        <span>Terraform</span><span>GitHub Actions</span><span>Kubernetes</span><span>Docker</span><span>Prometheus</span><span>Grafana</span>
+      </div>
+      <section class="contact" aria-labelledby="contact-heading">
+        <div>
+          <h2 id="contact-heading">Get in touch</h2>
+          <p>Tell us about your project or infrastructure needs.</p>
+        </div>
+        <a class="contact-address" href="mailto:contact@configflow.com" aria-label="Email us at contact@configflow.com">contact@configflow.com</a>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 Configflow OÜ</p>
+      <nav class="links" aria-label="Company links">
+        <a href="https://github.com/configflow">GitHub</a>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>
